@@ -8,7 +8,12 @@ export default {
     extend: {
       fontFamily: {
         raleway: ['Raleway', 'sans-serif'],
+        montserrat:['Montserrat', 'sans-serif'],
+        openSans:['Open Sans', 'sans-serif']
       },
+      letterSpacing: {
+        widest: '.25em', // menambahkan nilai custom
+      }
     },
   },
   plugins: [],

@@ -4,7 +4,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 export default function Intro() {
   return (
-    <div className="relative flex flex-col items-center bg-black">
+    <div className="relative flex flex-col items-center bg-black pt-20">
       <div className="absolute bottom-0 w-full h-1/2 z-10">
         <div
           className="bg-black bg-opacity-55 h-full"
@@ -12,12 +12,12 @@ export default function Intro() {
         >
           <div
             className="text-white p-8 font-raleway flex justify-between items-center"
-            style={{ transform: "translateY(50%)" }}
+            style={{ transform: "translateY(90%)" }}
           >
-            <div className="flex flex-col">
+            <div className="flex flex-col tracking-wider">
               <p className="font-bold text-md">Hi, I am</p>
               <p className="font-bold text-3xl">Ariel Zakly P.</p>
-              <p className="text-sm">Fullstack Web Developer</p>
+              <p className="text-sm ">Fullstack Web Developer</p>
             </div>
             <div className="flex flex-col items-end gap-4">
               <MdAlternateEmail className="text-white w-8 h-8" />
